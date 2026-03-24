@@ -1,0 +1,54 @@
+:root {
+  --ifm-color-primary: #e8639e;
+  --ifm-color-primary-dark: #e44a8e;
+  --ifm-color-primary-darker: #e23d86;
+  --ifm-color-primary-darkest: #c9206e;
+  --ifm-color-primary-light: #ec7cae;
+  --ifm-color-primary-lighter: #ee89b6;
+  --ifm-color-primary-lightest: #f4aecf;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #ff88be;
+  --ifm-color-primary-dark: #ff6bae;
+  --ifm-color-primary-darker: #ff5da6;
+  --ifm-color-primary-darkest: #ff2d8a;
+  --ifm-color-primary-light: #ffa5ce;
+  --ifm-color-primary-lighter: #ffb3d6;
+  --ifm-color-primary-lightest: #ffe0ee;
+  --ifm-background-color: #1a1a18;
+  --ifm-background-surface-color: #222220;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] .navbar {
+  background-color: #1a1a18;
+  border-bottom: 1px solid #2a2a28;
+}
+
+[data-theme='dark'] .footer {
+  background-color: #111110;
+}
+
+/* API method badges */
+.api-method {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: monospace;
+  margin-right: 8px;
+}
+.api-method--get { background: #61affe22; color: #61affe; border: 1px solid #61affe44; }
+.api-method--post { background: #49cc9022; color: #49cc90; border: 1px solid #49cc9044; }
+.api-method--put { background: #fca13022; color: #fca130; border: 1px solid #fca13044; }
+.api-method--patch { background: #fca13022; color: #fca130; border: 1px solid #fca13044; }
+.api-method--delete { background: #f9373722; color: #f93737; border: 1px solid #f9373744; }
