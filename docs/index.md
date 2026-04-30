@@ -9,12 +9,13 @@ title: ZenHub — Documentacao
 
 Bem-vindo a documentacao do **ZenHub** — plataforma de automacao de comunicacao WhatsApp.
 
-O ZenHub oferece duas formas de integracao:
+O ZenHub oferece tres formas de integracao:
 
 | Metodo | Ideal para | Setup |
 |--------|-----------|-------|
 | **API REST** | Sistemas externos, automacoes, bots | API Key via dashboard |
-| **CLI** | Terminal, IAs (Claude, Codex, Copilot), scripts | `npm install -g zenhub-cli` |
+| **CLI** | Terminal, scripts, CI/CD | `npm install -g zenhub-cli` |
+| **MCP** | IAs (Claude Desktop, Codex, Cursor, Copilot) | `npx zenhub-mcp` |
 
 ## O que voce pode fazer
 
