@@ -57,6 +57,7 @@ const sidebars: SidebarsConfig = {
         'mcp/overview',
         'mcp/clients',
         'mcp/tools',
+        'mcp/http',
         'mcp/claude-ai',
       ],
     },
